@@ -1,0 +1,63 @@
+/* Estilos para la barra de navegación */
+.register {
+  color: black;
+  text-decoration: none;
+}
+
+.register:hover {
+  opacity: 0.7;
+}
+
+/* Estilos para el formulario */
+.form {
+  padding: 20px;
+  margin: 10px;
+}
+
+.text1 {
+  width: 350px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+  border: black;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* Estilos del boton de ingresar */
+.btnIngresa {
+  background-color: #009a00;
+  color: whitesmoke;
+  font-weight: bold;
+  width: 150px;
+  margin-top: 20px;
+  border: black;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.btnIngresa:hover {
+  opacity: 0.7;
+}
+
+/* Estilos para los botones de contacto */
+.contac {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.insta {
+  width: 30px;
+  cursor: pointer;
+}
+
+.wsp {
+  width: 28px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}

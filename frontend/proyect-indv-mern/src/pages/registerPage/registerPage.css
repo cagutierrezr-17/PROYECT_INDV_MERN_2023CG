@@ -1,0 +1,82 @@
+/* estilos para la barra de navegación */
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bar > img {
+  width: 190px;
+}
+
+.navbtn {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ingresa {
+  color: black;
+  text-decoration: none;
+}
+
+.ingresa:hover{
+  opacity: .7;
+}
+
+/* Estilos para el formulario de registro */
+.form {
+  padding: 20px;
+  margin: 10px;
+}
+
+.text {
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+  border: black;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 5px 5px 4px 1px rgba(0, 0, 0, 0.75);
+}
+
+.text1 {
+  width: 350px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+  border: black;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.age {
+  width: 150px;
+  margin-left: 50px;
+  border: black;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* Estilos para el boton de registro */
+
+.btnRegister {
+  background-color: #9c0001;
+  color: whitesmoke;
+  font-weight: bold;
+  width: 150px;
+  margin-top: 20px;
+  border: black;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.75);
+ }
+
+.btnRegister:hover{
+  opacity: .8;
+}
+
